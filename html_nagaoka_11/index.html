@@ -197,52 +197,80 @@
           <div class="news_button e_title">
             MORE
           </div>
+        </section>
 
 <!-- 以下ACCESS項目 -->
 <section id="access">
-  <div class="access_title e_title black">
-    ACCESS
+<div class="access_title e_title black">
+  ACCESS
+</div>
+<div class="access_content text black">
+  <div class="access_subtitle j_title">
+    会社情報 
   </div>
-  <div class="access_content text black">
-    <div class="access_subtitle j_title">
-      会社情報 
-    </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.3925228879984!2d139.71127647484806!3d35.66733577259168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9faa249f2b%3A0xc415d41a1217b607!2z44CSMTA3LTAwNjEg5p2x5Lqs6YO95riv5Yy65YyX6Z2S5bGx77yT5LiB55uu77yV4oiS77yWIDJm!5e0!3m2!1sja!2sjp!4v1668369363594!5m2!1sja!2sjp" width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.3925228879984!2d139.71127647484806!3d35.66733577259168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9faa249f2b%3A0xc415d41a1217b607!2z44CSMTA3LTAwNjEg5p2x5Lqs6YO95riv5Yy65YyX6Z2S5bGx77yT5LiB55uu77yV4oiS77yWIDJm!5e0!3m2!1sja!2sjp!4v1668369363594!5m2!1sja!2sjp" width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
     <div class="access_info">
-      学校名
-    </div>
-    <div class="access_info_value">
-      チーズアカデミーTOKYO
-    </div>
-    <div class="access_info">
-      事務所所在地
-    </div>
-    <div class="access_info_value">
-      〒107-0061東京都港区北青山3-5-6 青朋ビル2F
-    </div><div class="access_info">
-      TEL
-    </div>
-    <div class="access_info_value">
-      03-5413-5045
-    </div><div class="access_info">
-      FAX
-    </div>
-    <div class="access_info_value">
-      03-5413-5046
-    </div><div class="access_info">
-      MAIL
-    </div>
-    <div class="access_info_value">
-      dummy@cheeseacademy.tokyo
-    </div>
-  </div>
-
-
+      <div class="info_sub">
+        <div class="access_info_name">
+          学校名
+        </div>
+        <div class="access_info_value">
+          チーズアカデミーTOKYO
+        </div>
+      </div>
+      <div class="info_sub">
+        <div class="access_info_name">
+          事務所所在地
+        </div>
+        <div class="access_info_value">
+          〒107-0061東京都港区北青山3-5-6 青朋ビル2F
+        </div>
+      </div>      <div class="info_sub">
+        <div class="access_info_name">
+          TEL
+        </div>
+        <div class="access_info_value">
+          03-5413-5045
+        </div>
+      </div>      <div class="info_sub">
+        <div class="access_info_name">
+          FAX
+        </div>
+        <div class="access_info_value">
+          03-5413-5046
+        </div>
+      </div>      <div class="info_sub">
+        <div class="access_info_name">
+          MAIL
+        </div>
+        <div class="access_info_value">
+          dummy@cheeseacademy.tokyo
+        </div>
+      </div>
+</div>
+</div>
 </section>
 
       <!-- 以下CONTACT項目 -->
       <section id="contact">
-        <div> <p>CONTACT</p></div>
+        <div class="contact_title e_title black"> 
+          CONTACT
+        </div>
+        <div class="contact_content text black">
+          <div class="contact_content_1 j_title">
+            説明会お申し込み・お問い合わせ 
+          </div>
+          <div class="contact_content_2">
+            <center>ぜひ1度、足を運んでみませんか。説明会は随時開催中。<br>
+              その他、お問い合わせもお気軽にどうぞ。お待ちしております。</center>
+          </div>
+          <div class="contact_content_3">
+            <center>
+              ※チーズアカデミーは実際には存在しません。<br>
+              間違っても問い合わせしないようお願いいたします。 
+          </center></div>
+        </div>
         <div class="contact_form">
           <div class="form_name">
             <div class="form_name_title text">
@@ -270,10 +298,16 @@
           </div>
           <div class="form_name">
             <div class="form_name_title text">
-              チーズアカデミーを知ったきっかけ
+              チーズアカデミーを<br>知ったきっかけ
             </div>
             <div class="form_name_value">
-              <input type="text" class="form_name_input">
+              <select name="refer">
+                <option value="google">google</option>
+                <option value="SNS">SNS</option>
+                <option value="紹介">紹介</option>
+                <option value="たまたま通りかかった">たまたま通りかかった</option>
+                <option value="その他">その他</option>
+              </select>
             </div>
           </div>
           <div class="form_name">
@@ -281,7 +315,10 @@
               志望動機
             </div>
             <div class="form_name_value">
-              <input type="text" class="form_name_input">
+              <input type="checkbox" name="志望動機"> 起業をしたい
+              <input type="checkbox" name="志望動機"> 起業をしたい
+              <input type="checkbox" name="志望動機"> 起業をしたい
+              <input type="checkbox" name="志望動機"> 起業をしたい
             </div>
           </div>
           <div class="form_name">
@@ -293,7 +330,16 @@
             </div>
           </div>
         </div>
+        <div class="contact_button e_title">
+          送信
+        </div>
       </section>
+   
+      <footer>
+        <p>
+          copyrights 2016 Cheeese Academy Tokyo All RIghts Reserved.
+        </p>
+
     </main>
 
   </div>
